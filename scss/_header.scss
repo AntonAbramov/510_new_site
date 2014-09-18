@@ -1,0 +1,16 @@
+.header {
+	background: #222222;
+}
+.main-nav {
+	width:$widthSite;
+	margin:0 auto;
+	li {
+		float:left;
+		position: relative;
+	}
+	a {
+		padding:10px 20px;
+		display: block;
+		color:#fff;
+	}
+}
