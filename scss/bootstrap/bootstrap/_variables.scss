@@ -18,7 +18,10 @@ $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 46.7%) !default; // #777
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 
-$brand-primary:         #428bca !default;
+$brand-primary:         #b5363c !default;
+$red:                   #b5363c !default;
+$brand-primary-hover:   #c50008 !default;
+$red-active:            #c50008 !default;
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
@@ -30,14 +33,14 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               #f2f2f2 !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            $gray-dark !default; // #333;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      $brand-primary-hover !default;
 
 
 //== Typography
@@ -62,9 +65,9 @@ $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
+$line-height-base:        20px !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$line-height-computed:    20px !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    inherit !default;
