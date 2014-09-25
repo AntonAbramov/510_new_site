@@ -1,16 +1,29 @@
 .header {
-	background: #222222;
-}
-.main-nav {
-	width:$widthSite;
-	margin:0 auto;
-	li {
-		float:left;
-		position: relative;
-	}
-	a {
-		padding:10px 20px;
-		display: block;
+	background: $red-active;
+	padding:10px 0;
+	position: relative;
+	p {
+		vertical-align: middle;
+		width:50%;
 		color:#fff;
+	}
+	.text-left {
+		float:left;
+	}
+	.text-right {
+		float:right;
+		padding-top:10px;
+	}
+	.logo {
+		left:50%;
+		top:0;
+		position: absolute;
+		z-index: 1;
+		margin-left: -135px;
+		width:278px;
+		height:209px;
+		background: url(../img/logo.png) no-repeat;
+		display: block;
+		text-indent:-9999em;
 	}
 }
