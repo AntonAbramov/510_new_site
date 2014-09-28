@@ -8033,38 +8033,69 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/icons\/\*\.png}line{font-family:\00003242}}
-.icons-sprite, .icons-buisness, .icons-circle_red, .icons-donate, .icons-donate_big, .icons-fancybox_buttons, .icons-fb, .icons-footer_logo, .icons-home, .icons-logo_5_10, .icons-phone, .icons-skype, .icons-slider_arrow_left, .icons-slider_arrow_right, .icons-tezis_12, .icons-tw, .icons-video, .icons-vk, .icons-what_is_510 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/icons\/\*\.png}line{font-family:\00003266}}
+.icons-sprite, .icons-about, .icons-buisness, .icons-circle_red, .icons-circle_separator, .icons-donate, .icons-donate_big, .icons-fancybox_buttons, .icons-fb, .icons-footer_logo, .icons-home, .icons-logo_5_10, .icons-phone, .icons-skype, .icons-slider_arrow_left, .icons-slider_arrow_right, .icons-tezis_12, .icons-tw, .icons-video, .icons-vk, .icons-what_is_510, nav ul > li.is-active .link-logo_5_10 .icon,
+nav ul > li .link-logo_5_10:hover .icon,
+nav ul > li .link-logo_5_10:focus .icon, nav ul > li.is-active .link-about .icon,
+nav ul > li .link-about:hover .icon,
+nav ul > li .link-about:focus .icon, nav ul > li.is-active .link-video .icon,
+nav ul > li .link-video:hover .icon,
+nav ul > li .link-video:focus .icon, nav ul > li.is-active .link-donate .icon,
+nav ul > li .link-donate:hover .icon,
+nav ul > li .link-donate:focus .icon, nav ul > li.is-active .link-buisness .icon,
+nav ul > li .link-buisness:hover .icon,
+nav ul > li .link-buisness:focus .icon, nav ul > li.is-active .link-phone .icon,
+nav ul > li .link-phone:hover .icon,
+nav ul > li .link-phone:focus .icon, .top-line-separator:before,
+.bottom-line-separator:before, .bullet-list li a:before {
   background: url('../img/icons.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-about {
+  background-position: 0 -297px;
+  height: 48px;
+  width: 62px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.icons-about:hover, .icons-about.about_hover, .icons-about.about-hover {
+  background-position: 0 -249px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-buisness {
-  background-position: 0 -548px;
+  background-position: 0 -644px;
   height: 35px;
   width: 56px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-buisness:hover, .icons-buisness.buisness_hover, .icons-buisness.buisness-hover {
-  background-position: 0 -583px;
+  background-position: 0 -679px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-circle_red {
-  background-position: 0 -926px;
+  background-position: 0 -1037px;
+  height: 15px;
+  width: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-circle_separator {
+  background-position: 0 -979px;
   height: 15px;
   width: 15px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-donate {
-  background-position: 0 -412px;
+  background-position: 0 -508px;
   height: 39px;
   width: 39px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-donate:hover, .icons-donate.donate_hover, .icons-donate.donate-hover {
-  background-position: 0 -509px;
+  background-position: 0 -605px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
@@ -8076,115 +8107,115 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-fancybox_buttons {
-  background-position: 0 -984px;
+  background-position: 0 -1095px;
   height: 90px;
   width: 90px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-fb {
-  background-position: 0 -1074px;
+  background-position: 0 -1185px;
   height: 17px;
   width: 7px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-footer_logo {
-  background-position: 0 -370px;
+  background-position: 0 -466px;
   height: 42px;
   width: 42px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-home {
-  background-position: 0 -651px;
+  background-position: 0 -747px;
   height: 33px;
   width: 39px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-home:hover, .icons-home.home_hover, .icons-home.home-hover {
-  background-position: 0 -618px;
+  background-position: 0 -714px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-logo_5_10 {
-  background-position: 0 -684px;
+  background-position: 0 -780px;
   height: 33px;
   width: 50px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-logo_5_10:hover, .icons-logo_5_10.logo_5_10_hover, .icons-logo_5_10.logo_5_10-hover {
-  background-position: 0 -717px;
+  background-position: 0 -813px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-phone {
-  background-position: 0 -480px;
+  background-position: 0 -576px;
   height: 29px;
   width: 42px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-phone:hover, .icons-phone.phone_hover, .icons-phone.phone-hover {
-  background-position: 0 -451px;
+  background-position: 0 -547px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-skype {
-  background-position: 0 -866px;
+  background-position: 0 -962px;
   height: 17px;
   width: 17px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-slider_arrow_left {
-  background-position: 0 -838px;
+  background-position: 0 -934px;
   height: 28px;
   width: 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-slider_arrow_left:hover, .icons-slider_arrow_left.slider_arrow_left_hover, .icons-slider_arrow_left.slider_arrow_left-hover {
-  background-position: 0 -883px;
+  background-position: 0 -994px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-slider_arrow_right {
-  background-position: 0 -810px;
+  background-position: 0 -906px;
   height: 28px;
   width: 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-slider_arrow_right:hover, .icons-slider_arrow_right.slider_arrow_right_hover, .icons-slider_arrow_right.slider_arrow_right-hover {
-  background-position: 0 -941px;
+  background-position: 0 -1052px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-tezis_12 {
-  background-position: 0 -249px;
+  background-position: 0 -345px;
   height: 121px;
   width: 99px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-tw {
-  background-position: 0 -911px;
+  background-position: 0 -1022px;
   height: 15px;
   width: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-video {
-  background-position: 0 -780px;
+  background-position: 0 -876px;
   height: 30px;
   width: 39px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-video:hover, .icons-video.video_hover, .icons-video.video-hover {
-  background-position: 0 -750px;
+  background-position: 0 -846px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-vk {
-  background-position: 0 -969px;
+  background-position: 0 -1080px;
   height: 15px;
   width: 13px;
 }
@@ -8240,16 +8271,185 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_footer\.scss}line{font-family:\000031}}
 .footer {
   margin: -100px auto;
-  width: 960px;
   height: 100px;
   position: relative;
   z-index: 2;
+  background: url(../img/pattern_gray.png) repeat;
+  border-top: 3px solid #6a6a6a;
+  padding: 40px 0;
+  text-align: center;
+  color: #e5e6e4;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_footer\.scss}line{font-family:\0000313}}
+.footer-logo-holder {
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_footer\.scss}line{font-family:\0000315}}
+.footer-logo-holder .icon {
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\000034}}
 nav {
   background: #e8e8e8;
   border-bottom: 5px solid #c8c8c8;
+  height: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\000038}}
+nav ul {
+  margin: 0 auto;
+  width: 1200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000312}}
+nav ul > li {
+  float: left;
+  border-left: 1px solid #c8c8c8;
+  position: relative;
+  height: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000317}}
+nav ul > li > a {
+  width: 145px;
+  height: 110px;
+  padding-top: 25px;
+  text-align: center;
+  color: #737373;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000326}}
+nav ul > li.is-active {
+  border-bottom: 5px solid #b5363c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000328}}
+nav ul > li.is-active > a {
+  color: #b5363c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000335}}
+nav ul > li.is-active .link-logo_5_10 .icon,
+nav ul > li .link-logo_5_10:hover .icon,
+nav ul > li .link-logo_5_10:focus .icon {
+  background-position: 0 -813px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000342}}
+nav ul > li.is-active .link-about .icon,
+nav ul > li .link-about:hover .icon,
+nav ul > li .link-about:focus .icon {
+  background-position: 0 -249px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000349}}
+nav ul > li.is-active .link-video .icon,
+nav ul > li .link-video:hover .icon,
+nav ul > li .link-video:focus .icon {
+  background-position: 0 -846px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000356}}
+nav ul > li.is-active .link-donate .icon,
+nav ul > li .link-donate:hover .icon,
+nav ul > li .link-donate:focus .icon {
+  background-position: 0 -605px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000363}}
+nav ul > li.is-active .link-buisness .icon,
+nav ul > li .link-buisness:hover .icon,
+nav ul > li .link-buisness:focus .icon {
+  background-position: 0 -679px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000370}}
+nav ul > li.is-active .link-phone .icon,
+nav ul > li .link-phone:hover .icon,
+nav ul > li .link-phone:focus .icon {
+  background-position: 0 -547px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000374}}
+nav ul > li .icon {
+  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000381}}
+nav ul > li .icons-about {
+  margin-top: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000384}}
+nav ul > li .icons-video {
+  margin-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000387}}
+nav ul > li .icons-donate {
+  margin-top: -4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000390}}
+nav ul > li .icons-phone {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000393}}
+nav ul > li.navigation-indent {
+  border-left: none;
+  margin-left: 320px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000397}}
+nav ul > li:last-child {
+  border-right: 1px solid #c8c8c8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003100}}
+nav ul > li:hover nav {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003105}}
+nav a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003108}}
+nav nav {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 20px 25px;
+  width: 200px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  border: none;
+  z-index: 10;
+  display: none;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003121}}
+nav nav:before {
+  content: "";
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  z-index: 5;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003131}}
+nav nav a {
+  margin-top: 20px;
+  color: #333333;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003135}}
+nav nav a:hover, nav nav a:focus {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003138}}
+nav nav a:first-child {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_slider\.scss}line{font-family:\000031}}
+.index-slider-container {
+  background: url(../img/pattern_white.png) repeat;
+  height: 400px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_tabs\.scss}line{font-family:\000032}}
@@ -8310,15 +8510,14 @@ nav {
   z-index: 21;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\000032}}
 html {
   min-height: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\000036}}
 body {
-  background: url(../img/bg.jpg) repeat;
   min-height: 100%;
   height: 100%;
 }
@@ -8335,39 +8534,253 @@ ul, ol {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000319}}
-.cf:after, .container:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000318}}
+a {
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000322}}
+.cf:after, nav ul:after, .container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000328}}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000331}}
 .mb10 {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000334}}
 .mb20 {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000337}}
+.pt40 {
+  padding-top: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000340}}
+.pb40 {
+  padding-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000343}}
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000346}}
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000349}}
+.heading4 {
+  font-size: 18px;
+  margin: 0 0 20px;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000354}}
+.line-throw {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000356}}
+.line-throw:before {
+  content: "";
+  background: #cecece;
+  height: 1px;
+  width: 100%;
+  top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000365}}
+.line-throw span {
+  background: #f2f2f2;
+  padding-right: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000372}}
 .container {
   max-width: 1200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000376}}
+.main-container {
+  padding-bottom: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000380}}
+.top-line-separator,
+.bottom-line-separator {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000382}}
+.top-line-separator:before,
+.bottom-line-separator:before {
+  content: "";
+  background-position: 0 -979px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  margin-left: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000393}}
+.top-line-separator {
+  border-top: 1px solid #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000395}}
+.top-line-separator:before {
+  top: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\0000399}}
+.bottom-line-separator {
+  border-bottom: 1px solid #dcdcdc;
+  bottom: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003103}}
+.info-boxes {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003105}}
+.info-boxes .box {
+  text-decoration: none;
+  width: 290px;
+  display: inline-block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003111}}
+.info-boxes .box:after {
+  content: "";
+  right: -16px;
+  bottom: 0;
+  z-index: 2;
+  position: absolute;
+  width: 16px;
+  height: 310px;
+  background: url(../img/shadow_right.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003121}}
+.info-boxes .box .pic-bg {
+  background: #b5363c;
+  display: block;
+  height: 180px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003127}}
+.info-boxes .box .pic-bg .icon {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003130}}
+.info-boxes .box .pic-bg .icons-what_is_510 {
+  top: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003133}}
+.info-boxes .box .pic-bg .icons-tezis_12 {
+  top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003136}}
+.info-boxes .box .pic-bg .icons-donate_big {
+  top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003141}}
+.info-boxes .box:hover .pic-bg {
+  background: #c50008;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003144}}
+.info-boxes .box:hover .title {
+  color: #c50008;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003148}}
+.info-boxes .box .box-text {
+  padding: 20px 40px;
+  background: #e8e8e8;
+  display: block;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  min-height: 135px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003156}}
+.info-boxes .box .box-text:before {
+  content: "";
+  height: 5px;
+  position: absolute;
+  left: 2%;
+  width: 96%;
+  background: #dcdcdc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: block;
+  z-index: 2;
+  bottom: -5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003170}}
+.info-boxes .box .title {
+  color: #616161;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 0 #fff;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 24px;
+  display: block;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003180}}
+.info-boxes .box .description {
+  color: #9c9c9c;
+  font-size: 16px;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003188}}
+.bullet-list li {
+  padding: 12px 0;
+  border-top: 1px dashed #cecece;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003191}}
+.bullet-list li:first-child {
+  border-top: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003194}}
+.bullet-list li a {
+  padding-left: 22px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003197}}
+.bullet-list li a:before {
+  content: "";
+  background-position: 0 -1037px;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  width: 15px;
+  height: 15px;
+  left: 0;
+  z-index: 2;
 }
