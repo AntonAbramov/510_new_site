@@ -4,5 +4,140 @@ $border-color: #c8c8c8;
 nav {
 	background: $bg;
 	border-bottom:5px solid $border-color;
-
+	height:115px;
+	ul {
+		margin: 0 auto;
+		width:$screen-lg;
+		@extend .cf;
+		>li {
+			float:left;
+			border-left: 1px solid $border-color;
+			position: relative;
+			height:115px;
+			> a {
+				width: 145px;
+				height:110px;
+				padding-top:25px;
+				text-align: center;
+				color:#737373;
+				text-transform: uppercase;
+				font-size: 16px;
+			}
+			&.is-active {
+				border-bottom:5px solid $red;
+				>   a {
+					color:$red;
+				}
+			}
+			&.is-active .link-logo_5_10,
+			.link-logo_5_10:hover,
+			.link-logo_5_10:focus{
+				.icon {
+					@include icons-sprite(logo_5_10_hover);
+				}
+			}
+			&.is-active .link-about,
+			.link-about:hover,
+			.link-about:focus{
+				.icon {
+					@include icons-sprite(about_hover);
+				}
+			}
+			&.is-active .link-video,
+			.link-video:hover,
+			.link-video:focus{
+				.icon {
+					@include icons-sprite(video_hover);
+				}
+			}
+			&.is-active .link-donate,
+			.link-donate:hover,
+			.link-donate:focus{
+				.icon {
+					@include icons-sprite(donate_hover);
+				}
+			}
+			&.is-active .link-buisness,
+			.link-buisness:hover,
+			.link-buisness:focus{
+				.icon {
+					@include icons-sprite(buisness_hover);
+				}
+			}
+			&.is-active .link-phone,
+			.link-phone:hover,
+			.link-phone:focus{
+				.icon {
+					@include icons-sprite(phone_hover);
+				}
+			}
+			.icon {
+				margin-bottom: 10px;
+				display: block;
+				margin-bottom:10px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.icons-about {
+				margin-top:-15px;
+			}
+			.icons-video {
+				margin-top:3px;
+			}
+			.icons-donate {
+				margin-top:-4px;
+			}
+			.icons-phone {
+				margin-top:5px;
+			}
+			&.navigation-indent {
+				border-left: none;
+				margin-left: 320px;
+			}
+			&:last-child {
+				border-right: 1px solid $border-color;
+			}
+			&:hover nav {
+				display: block;
+			}
+		}
+	}
+	a {
+		display: block;
+	}
+	nav {
+		box-shadow:0 0 4px rgba(0,0,0, .2);
+		background:#f2f2f2;
+		border-radius: 4px;
+		padding:20px 25px;
+		width:200px;
+		position: absolute;
+		top:120px;
+		left:0;
+		border:none;
+		z-index: 10;
+		display: none;
+		height:auto;
+		&:before {
+			content:"";
+			height:10px;
+			width:100%;
+			position: absolute;
+			top:-10px;
+			left:0;
+			z-index: 5;
+			cursor: pointer;
+		}
+		a {
+			margin-top:20px;
+			color:$gray-dark;
+			text-decoration: none;
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
+			&:first-child {
+				margin-top:0;
+			}
+		}
+	}
 }
