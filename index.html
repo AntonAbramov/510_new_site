@@ -17,7 +17,7 @@
   <![endif]-->
 
 </head>
-<body ng-app="app" ng-controller="StoreController as store">
+<body >
   <header class="header">
     <a href="/" class="logo" title="5.10 Украине без налогов!"><img src="img/logo.png" alt="5.10 Украина без налогов Логотип"/> Сайт Партии 5.10 Украина без налогов!</a>
     <div class="container">
@@ -29,10 +29,9 @@
        </p>
     </div>
   </header>
-  <nav>
+  <nav class="navigation">
     <ul>
-
-      <li style="display: none">
+      <li class="home is-active">
         <a href="#">
           <i class="icon icons-home"></i>
           Главная
@@ -75,6 +74,11 @@
           <i class="icon icons-buisness"></i>
           БИЗНЕС и 5.10
         </a>
+        <nav>
+          <a href="#">Бизнес</a>
+          <a href="#">Как сюда попасть?</a>
+          <a href="#">Баннеры 5.10</a>
+        </nav>
       </li>
       <li>
         <a class="link-phone" href="#">
@@ -98,7 +102,7 @@
           <p>
             На что необходимо пойти государству, чтобы в бюджет начали поступать сотни миллиардов долларов? Взять за основу государственную систему самых развитых стран мира - сделать в Украине идеальные условия для ведения бизнеса, благодаря введению простой и понятной системы «5.10».
           </p>
-          <a class="continue-btn" href="#">читать подробнее »</a>
+          <a class="btn-box" href="#">читать подробнее »</a>
         </div>
         <div class="info-boxes row">
           <div class="col-md-4">
@@ -135,9 +139,18 @@
       <div class="container ">
         <div class="row">
           <div class="col-md-3">
-            <p>
-              <a href="#"><i class="icon icons-logo_5_10"></i></a>
+            <p class="text-center">
+              <a href="/"><i class="icon icons-logo_5_10"></i></a>
             </p>
+            <p class="text-center">
+               5.10 – это всеукраинское многомиллионное движение и политическая партия, созданная сделать Украину богатой страной, а украинцев – состоятельными гражданами мира.
+            </p>
+            <div class="sosials">
+              <a href="#"><i class="icon icons-fb"></i></a>
+              <a href="#"><i class="icon icons-vk"></i></a>
+              <a href="#"><i class="icon icons-tw"></i></a>
+              <a href="#"><i class="icon icons-skype"></i></a>
+            </div>
           </div>
           <div class="col-md-3">
             <h4 class="heading4 line-throw"><span>Система "5.10"</span></h4>
@@ -199,7 +212,7 @@
     </div>
   </footer>
 </body>
+<script src="js/jquery-2.1.1.min.js"></script>
 <script src="bower_components/angular/angular.min.js"></script>
-<script src="js/controller.js"></script>
 <script src="js/init.js"></script>
 </html>
