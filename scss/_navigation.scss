@@ -1,10 +1,11 @@
 $bg : #e8e8e8;
 $border-color: #c8c8c8;
 
-nav {
+.navigation {
 	background: $bg;
 	border-bottom:5px solid $border-color;
 	height:115px;
+	margin-bottom: 40px;
 	ul {
 		margin: 0 auto;
 		width:$screen-lg;
@@ -22,6 +23,7 @@ nav {
 				color:#737373;
 				text-transform: uppercase;
 				font-size: 16px;
+				@include transition(none);
 			}
 			&.is-active {
 				border-bottom:5px solid $red;
@@ -92,13 +94,28 @@ nav {
 			}
 			&.navigation-indent {
 				border-left: none;
-				margin-left: 320px;
+				margin-left: 300px;
 			}
 			&:last-child {
 				border-right: 1px solid $border-color;
 			}
 			&:hover nav {
 				display: block;
+			}
+		}
+		>li.home {
+			margin-left: -60px;
+			> a {
+				font-size: 11px;
+				width: 60px;
+				&:hover .icons-home {
+					@include icons-sprite(home_hover);
+				}
+			}
+			&.is-active {
+				.icon {
+					@include icons-sprite(home_hover);
+				}
 			}
 		}
 	}

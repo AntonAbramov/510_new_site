@@ -1,0 +1,14 @@
+.btn-box {
+	border:1px solid $red;
+	color:$red;
+	display: inline-block;
+	padding:6px 10px 6px 12px;
+	border-radius: 3px;
+	text-decoration: none;
+	&:hover, &:focus {
+		border-color:$red-active;
+		text-decoration: none;
+		color:$red-active;
+		background: #fff;
+	}
+}
