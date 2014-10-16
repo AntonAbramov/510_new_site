@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title></title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Anton Abramov"/>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
+  <link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
+  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/divunk/html5.js"></script>
+  <![endif]-->
+  <style>
+    .wrapper {
+      margin:30px auto 0;
+      width:1000px;
+    }
+    .header {
+      margin:0 0 20px;
+      border:1px solid red;
+      padding:0 0 0 20px;
+    }
+    .c1 {
+      float:left;
+      border:1px solid green;
+      width:30%;
+      margin-right: 10%;
+      height: 40px;
+    }
+    .c2 {
+      float:left;
+      border:1px solid blue;
+      height:40px;
+      width:60%;
+    }
+    .f1 {
+      border:1px solid orange;
+      background: orange;
+      height: 50px;;
+    }
+    .clearfix:after {
+      content:"";
+      clear:both;
+      display: table;
+
+    }
+
+    .navigation li {
+      float: left;
+      margin:0 0 0 20px;
+    }
+    .navigation li:first-child {
+      margin-left: 0;
+    }
+
+    .navigation a {
+      text-decoration:none;
+      font-size: 16px;
+      color:#ff671b;
+    }
+
+    .navigation .is-active {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">header</div>
+  <div class="clearfix">
+    <div class="c1">c1</div>
+    <div class="c2">c2</div>
+  </div>
+  <div style="margin:50px auto;">
+    <ul class="navigation clearfix">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Аэрография</a></li>
+      <li><a class="is-active" href="#">Портфолио</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+
+  <div class="f1">tasdad</div>
+</div>
+</body>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="js/init.js"></script>
+</html>

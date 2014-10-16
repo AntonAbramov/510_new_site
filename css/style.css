@@ -8332,51 +8332,55 @@ button.close {
   -o-transition: none;
   transition: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000327}}
+.navigation ul > li > a:hover, .navigation ul > li > a:focus {
+  color: #c50008;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000331}}
 .navigation ul > li.is-active {
   border-bottom: 5px solid #b5363c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000333}}
 .navigation ul > li.is-active > a {
   color: #b5363c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000340}}
 .navigation ul > li.is-active .link-logo_5_10 .icon,
 .navigation ul > li .link-logo_5_10:hover .icon,
 .navigation ul > li .link-logo_5_10:focus .icon {
   background-position: 0 -935px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000347}}
 .navigation ul > li.is-active .link-about .icon,
 .navigation ul > li .link-about:hover .icon,
 .navigation ul > li .link-about:focus .icon {
   background-position: 0 -371px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000354}}
 .navigation ul > li.is-active .link-video .icon,
 .navigation ul > li .link-video:hover .icon,
 .navigation ul > li .link-video:focus .icon {
   background-position: 0 -968px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000361}}
 .navigation ul > li.is-active .link-donate .icon,
 .navigation ul > li .link-donate:hover .icon,
 .navigation ul > li .link-donate:focus .icon {
   background-position: 0 -727px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000368}}
 .navigation ul > li.is-active .link-buisness .icon,
 .navigation ul > li .link-buisness:hover .icon,
 .navigation ul > li .link-buisness:focus .icon {
   background-position: 0 -801px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000375}}
 .navigation ul > li.is-active .link-phone .icon,
 .navigation ul > li .link-phone:hover .icon,
 .navigation ul > li .link-phone:focus .icon {
   background-position: 0 -669px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000379}}
 .navigation ul > li .icon {
   margin-bottom: 10px;
   display: block;
@@ -8384,57 +8388,57 @@ button.close {
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000386}}
 .navigation ul > li .icons-about {
   margin-top: -15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000389}}
 .navigation ul > li .icons-video {
   margin-top: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000392}}
 .navigation ul > li .icons-donate {
   margin-top: -4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000395}}
 .navigation ul > li .icons-phone {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000398}}
 .navigation ul > li.navigation-indent {
   border-left: none;
   margin-left: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003102}}
 .navigation ul > li:last-child {
   border-right: 1px solid #c8c8c8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003105}}
 .navigation ul > li:hover nav {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003109}}
 .navigation ul > li.home {
   margin-left: -60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003111}}
 .navigation ul > li.home > a {
   font-size: 11px;
   width: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003114}}
 .navigation ul > li.home > a:hover .icons-home {
   background-position: 0 -836px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003119}}
 .navigation ul > li.home.is-active .icon {
   background-position: 0 -836px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003125}}
 .navigation a {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003128}}
 .navigation nav {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   background: #f2f2f2;
@@ -8449,7 +8453,7 @@ button.close {
   display: none;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003141}}
 .navigation nav:before {
   content: "";
   height: 10px;
@@ -8460,19 +8464,24 @@ button.close {
   z-index: 5;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003151}}
 .navigation nav a {
   margin-top: 20px;
   color: #333333;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003155}}
 .navigation nav a:hover, .navigation nav a:focus {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003158}}
 .navigation nav a:first-child {
   margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_navigation\.scss}line{font-family:\00003165}}
+.side-navigation a {
+  display: block;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_slider\.scss}line{font-family:\000031}}
@@ -8808,7 +8817,6 @@ h1, h2, h3, h4, h5, h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003188}}
 .bullet-list li {
   padding: 12px 0;
-  border-top: 1px dashed #cecece;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003191}}
 .bullet-list li:first-child {
@@ -8818,26 +8826,35 @@ h1, h2, h3, h4, h5, h6 {
 .bullet-list li a {
   padding-left: 22px;
   position: relative;
+  text-decoration: none;
+  display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003199}}
+.bullet-list li a:hover, .bullet-list li a:focus {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003202}}
 .bullet-list li a:before {
   content: "";
   background-position: 0 -1159px;
   position: absolute;
-  top: 50%;
-  margin-top: -7px;
+  top: 3px;
   width: 15px;
   height: 15px;
   left: 0;
   z-index: 2;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003215}}
+.bullet-list.bullet-brd-items li {
+  border-top: 1px dashed #cecece;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003220}}
 .sosials {
   margin: 30px 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003223}}
 .sosials a {
   display: inline-block;
   background: #b5363c;
@@ -8849,11 +8866,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 42px;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003233}}
 .sosials a:hover {
   background: #c50008;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/510_new_site\/scss\/_main\.scss}line{font-family:\00003236}}
 .sosials a i {
   vertical-align: middle;
 }

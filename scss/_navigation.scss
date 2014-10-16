@@ -24,6 +24,9 @@ $border-color: #c8c8c8;
 				text-transform: uppercase;
 				font-size: 16px;
 				@include transition(none);
+				&:hover, &:focus {
+					color:$red-active;
+				}
 			}
 			&.is-active {
 				border-bottom:5px solid $red;
@@ -156,5 +159,10 @@ $border-color: #c8c8c8;
 				margin-top:0;
 			}
 		}
+	}
+}
+.side-navigation {
+	a {
+		display: block;
 	}
 }

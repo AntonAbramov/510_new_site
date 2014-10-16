@@ -187,24 +187,33 @@ h1,h2,h3,h4,h5,h6 {
 .bullet-list {
 	li {
 		padding:12px 0;
-		border-top:1px dashed $gray;
+
 		&:first-child {
 			border-top:none;
 		}
 		a {
 			padding-left: 22px;
 			position: relative;
+			text-decoration: none;
+			display: block;
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
 			&:before {
 				content:"";
 				@include icons-sprite(circle_red);
 				position: absolute;
-				top:50%;
-				margin-top:-7px;
+				top:3px;
 				width:15px;
 				height:15px;
 				left:0;
 				z-index: 2;
 			}
+		}
+	}
+	&.bullet-brd-items {
+		li {
+			border-top:1px dashed $gray;
 		}
 	}
 }
